@@ -1,23 +1,62 @@
+/* касаеться всуй страницы */
+:root{
+    --logo-text:'Raleway',sans-serif;}
+
 .page {
     background-color: #FFFFFF;
-    color: #212121;
+    color: #212121; 
+    font-family: 'Roboto', sans-serif;   
 }
+
+a{text-decoration: none;}
 
 .list {
     list-style:none;
+    
 }
+
 /* основной цвет #212121 */
 /* вторичний цвет #757575 */
 /* белий основ #FFFFFF */
 /* основ голуб #2196F3 */
 /* вторичние цвет фона #2F303A */
 
-
-/* loga */
-.loga{
-    color: #2196F3 ;
+.shapka{
+list-style: none;
+display: inline-flex;
 }
+/* навигатор сайта */
+
+/*логотип*/
+.shapka .loga{
+    
+    margin: 0;
+    padding: 25px 0 24px 215px;
+    color: #212121;
+    font-family: var(--logo-text);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+       
+}
+
+.loga-web{color: #2196F3;}
+
 /* site-nav */
 .site-nav .link{
     color: #212121;
+    
+}
+ .cotacts{
+     display: inline-flex;
+     padding-left: 0;
+ }
+   
+
+.site-nav {
+    display: inline-flex;
+    width: 294px;
+  
+  
 }
